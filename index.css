@@ -1,0 +1,56 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Courgette', cursive;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+h1{
+    font-size: 70px;
+    margin: 0;
+    transition: font-size 1s;
+}
+h1:hover{
+    font-size: 100px;
+}
+h2{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+.social-network{
+    font-size: 28px;
+    color: #676767
+}
+
+.social-network i{
+    transition: font-size 1s;
+}
+
+.social-network i:hover{
+    font-size: 35px;
+    color: red;
+}
+
+.fade{
+    opacity: 0;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
